@@ -1,10 +1,31 @@
 .splash-container {
-    background: transparent url('/img/running.jpg') 0 0 no-repeat fixed;
+    background: transparent url('../img/running.jpg') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/running.jpg', sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/running.jpg', sizingMethod='scale');
 
     width: 100%;
     margin-bottom: 3em;
     display: table;
+}
+
+.contactblock:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  font-weight:      bold;
+}
+.contactblock:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  font-weight:      bold;
+}
+.contactblock:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  none;
+  font-weight:      bold;
+}
+.contactblock:active  {
+  /* Applies to activated links */
+  text-decoration:  underline;
+  font-weight:      bold;
 }
